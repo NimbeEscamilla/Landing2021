@@ -854,7 +854,7 @@ section#teamEgresados {
 .partners__grid {
   margin-top: 2.25rem;
   display: grid;
-  grid-template-columns: repeat(3, minmax(8.75em, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(8.75em, 1fr));
   row-gap: 1rem;
   column-gap: 1rem; }
 
@@ -888,7 +888,7 @@ section#teamEgresados {
     #docsWorkshop h2 {
       font-size: 2.5rem; }
   .partners__grid {
-    grid-template-columns: repeat(3, minmax(11em, 1fr)); }
+    grid-template-columns: repeat(auto-fill, minmax(11em, 1fr)); }
     .partners__grid .partners__card {
       height: 6em; } }
 
